@@ -42,3 +42,19 @@ The dataset contains the following files:
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units
    are radian/seconds.
 
+# Data Transformation Stages
+The 5 parts of the data are:
+  1. Merges the training and the test sets to create one data set.
+  2. Extracts only the measurements on the mean and standard deviation for each measurement.
+  3. Uses descriptive activity names to name the activities in the data set.
+  4. Appropriately labels the data set with descriptive activity names.
+  5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  
+# Data Running Processes
+ 1. The following packages should be run in R: data.tables & reshape2.
+ 2. Load the two dataset which are test and train data.
+ 3. Load the following: features and activity labels.
+ 4. Extract the mean and standard deviation column names and data.
+ 5. Process the data. There are two parts processing test and train data respectively.
+ 6. Merge data set.
+ 
