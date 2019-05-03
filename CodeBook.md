@@ -1,4 +1,4 @@
-# CodeBook for Getting & Cleaning Data Assignment - Week 4
+# CodeBook for Getting & Cleaning Data Assignment Week4
 
 The codebook explains the variables, the source of data, all transformations made, and other information worth noting.
 
@@ -23,24 +23,25 @@ frequency domain.
 
 # Data
 The dataset contains the following files:
-'README.txt'
-'features.txt': List of all features.
-'features_info.txt': Shows information about the variables used on the feature vector.
-'activity_labels.txt': Links the class labels with their activity name.
-'train/X_train.txt': Training set.
-'train/y_train.txt': Training labels.
-'test/X_test.txt': Test set.
-'test/y_test.txt': Test labels.
+ 1. 'README.txt'
+ 2. 'features.txt': List of all features.
+ 3. 'features_info.txt': Shows information about the variables used on the feature vector.
+ 4. 'activity_labels.txt': Links the class labels with their activity name.
+ 5. 'train/X_train.txt': Training set.
+ 6. 'train/y_train.txt': Training labels.
+ 7. 'test/X_test.txt': Test set.
+ 8. 'test/y_test.txt': Test labels.
 
 # Files are available for the train and test data. Their descriptions are equivalent.
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity 
-   units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 
-   'total_acc_z_train.txt' files for the Y and Z axis.
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the 
-   total acceleration.
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units
-   are radian/seconds.
+ 1. 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. 
+    Its range is from 1 to 30.
+ 2. 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity 
+    units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 
+    'total_acc_z_train.txt' files for the Y and Z axis.
+3. 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the 
+    total acceleration.
+4. 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The     
+    units are radian/seconds.
 
 # Data Transformation Stages
 The 5 parts of the data are:
