@@ -32,7 +32,7 @@ The dataset contains the following files:
  7. 'test/X_test.txt': Test set.
  8. 'test/y_test.txt': Test labels.
 
-# Files are available for the train and test data. Their descriptions are equivalent.
+# Files are available for the train and test data. 
  1. 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. 
     Its range is from 1 to 30.
  2. 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity 
